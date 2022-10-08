@@ -2,7 +2,7 @@
 
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install wget -y
-sudo apt-get update && apt-get install proftpd
+apt-get install proftpd
 
 rm /etc/proftpd/proftpd.conf
 
